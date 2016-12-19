@@ -22,24 +22,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ar4-ne-jOW">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xkd-Bz-1Nd">
                                 <rect key="frame" x="16" y="20" width="288" height="540"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="SPw-Q5-CoE">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="76.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="S5q-ds-PVD">
-                                        <rect key="frame" x="0.0" y="58" width="288" height="482"/>
+                                        <rect key="frame" x="0.0" y="86.5" width="288" height="453.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pDJ-Rj-pDk">
-                                                <rect key="frame" x="0.0" y="0.0" width="288" height="88.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="83"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCk-SV-6De">
-                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -49,7 +49,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHz-sS-Qhz">
-                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -59,7 +59,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-1x-pXg">
-                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -69,7 +69,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5I-c8-H7M">
-                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -81,10 +81,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="V8h-pW-Xjt">
-                                                <rect key="frame" x="0.0" y="98.5" width="288" height="88.5"/>
+                                                <rect key="frame" x="0.0" y="93" width="288" height="82.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYr-Cl-OBl">
-                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -94,7 +94,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vos-Qy-wJT">
-                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -104,7 +104,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIM-oX-Pcu">
-                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -114,7 +114,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbr-QG-sOg">
-                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -126,10 +126,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="B8o-9R-D6r">
-                                                <rect key="frame" x="0.0" y="197" width="288" height="88"/>
+                                                <rect key="frame" x="0.0" y="185.5" width="288" height="82.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ns-Qo-x9o">
-                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="88"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -139,7 +139,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqd-Bq-jpr">
-                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="88"/>
+                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -149,7 +149,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRr-2c-nkG">
-                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="88"/>
+                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -159,7 +159,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVL-XW-OrX">
-                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="88"/>
+                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -171,20 +171,20 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="n8j-mg-tby">
-                                                <rect key="frame" x="0.0" y="295" width="288" height="88.5"/>
+                                                <rect key="frame" x="0.0" y="278" width="288" height="83"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cf1-JU-Crh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="√"/>
+                                                        <state key="normal" title="save"/>
                                                         <connections>
-                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gh-Yg-RIN"/>
+                                                            <action selector="save" destination="BYZ-38-t0r" eventType="touchUpInside" id="YLL-OQ-qyZ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3i-Jd-0C7">
-                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -194,7 +194,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvM-jf-Slm">
-                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -204,7 +204,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17b-5L-riu">
-                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="83"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -216,20 +216,20 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GCt-Vd-lFo">
-                                                <rect key="frame" x="0.0" y="393.5" width="288" height="88.5"/>
+                                                <rect key="frame" x="0.0" y="371" width="288" height="82.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebm-dy-cav">
-                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="cos"/>
+                                                        <state key="normal" title="restore"/>
                                                         <connections>
-                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ji0-aa-gEV"/>
+                                                            <action selector="restore" destination="BYZ-38-t0r" eventType="touchUpInside" id="wh2-OO-NMI"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YW-VG-gFf">
-                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="74.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -239,7 +239,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zj-DP-9l8">
-                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="149" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -249,7 +249,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHl-cn-QP0">
-                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="88.5"/>
+                                                        <rect key="frame" x="223.5" y="0.0" width="64.5" height="82.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="UIButton"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -267,10 +267,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="Ar4-ne-jOW" secondAttribute="leading" id="05e-D6-9Gn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ar4-ne-jOW" secondAttribute="trailing" id="B6X-tT-8Na"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ar4-ne-jOW" secondAttribute="bottom" constant="8" symbolic="YES" id="p6P-9D-5wL"/>
-                            <constraint firstItem="Ar4-ne-jOW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uTb-rw-246"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xkd-Bz-1Nd" secondAttribute="trailing" id="KCz-hg-h4M"/>
+                            <constraint firstItem="Xkd-Bz-1Nd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="RiH-s2-EF9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xkd-Bz-1Nd" secondAttribute="bottom" constant="8" symbolic="YES" id="UQx-3T-9oQ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Xkd-Bz-1Nd" secondAttribute="leading" id="sk5-hD-wSM"/>
                         </constraints>
                     </view>
                     <connections>
@@ -279,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-227" y="104"/>
+            <point key="canvasLocation" x="-293" y="295"/>
         </scene>
     </scenes>
 </document>
