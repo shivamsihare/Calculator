@@ -53,6 +53,7 @@ class CalculatorBrain{
                 pending = PendingBinaryOperationInfo(firstOperand: accumulator, binaryFunction: function)
             case .Equals:
                 equalsOperation()
+                //git changes
             }
         }
     }
