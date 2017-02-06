@@ -18,11 +18,6 @@ class CalculatorBrain{
         internalProgram.append(operand as AnyObject)
     }
     
-    
-    func addUnaryOperation(symbol: String, operation: @escaping (Double)->Double){
-        operations[symbol] = Operation.UnaryOperation(operation)
-    }
-    
     var operations:Dictionary<String,Operation> = [
     
         "e" : Operation.Constant(M_E),
@@ -58,6 +53,7 @@ class CalculatorBrain{
                 pending = PendingBinaryOperationInfo(firstOperand: accumulator, binaryFunction: function)
             case .Equals:
                 equalsOperation()
+                //git changes
             }
         }
     }
