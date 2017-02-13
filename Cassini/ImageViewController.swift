@@ -14,15 +14,21 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     var imageURL: NSURL? {
         didSet {
             image = nil
-            fetchImage()
+            if view.window != nil{
+                fetchImage()
+            }
         }
     }
     
     private func fetchImage(){
         if let url = imageURL{
+            
+            //dispatch_async(DispatchQueue.global(QOS_CLASS_USER_INITIATED)){
+            
             if let imageData = NSData(contentsOf: url as URL){
                 image = UIImage(data: imageData as Data)
             }
+            //}
         }
     }
     
@@ -36,7 +42,6 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        
         return imageView
     }
     
@@ -56,6 +61,13 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.addSubview(imageView)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if image == nil {
+            fetchImage()
+        }
     }
 }
 
