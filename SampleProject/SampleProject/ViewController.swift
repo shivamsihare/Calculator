@@ -7,16 +7,28 @@
 //
 
 import UIKit
+//import SwiftyJSON
 
 class ViewController: UIViewController, SSRadioButtonControllerDelegate {
-
-    
 
     @IBOutlet weak var maleButton: UIButton!
     @IBOutlet weak var femaleButton: UIButton!
     
+    @IBOutlet weak var nameOfPerson: UITextField!
+    
+    @IBOutlet weak var eMailAddress: UITextField!
+    
+    @IBOutlet weak var Password: UITextField!
+    
+    @IBOutlet weak var isGenderMale: UIButton!
+    
     @IBAction func backOpn(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    
+    @IBAction func doOnSignUpPress(_ sender: UIButton) {
+        
     }
     
     var radioButtonController: SSRadioButtonsController?

@@ -7,16 +7,24 @@
 //
 
 import UIKit
+import Alamofire
 
 class LoginViewController: UIViewController {
 
+    
+    var arrRes = [[String:AnyObject]]()
+    
     @IBAction func backOpn(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func performSignInAction(_ sender: UIButton) {
+        performSegue(withIdentifier: "CorrectData", sender: sender)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 

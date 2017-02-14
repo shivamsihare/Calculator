@@ -107,6 +107,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hft-Hx-3vg">
                                         <rect key="frame" x="0.0" y="240" width="230" height="30"/>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="doOnSignUpPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eec-bb-opm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -125,13 +128,35 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="Password" destination="SJa-Hn-aJC" id="FBK-Ia-DbK"/>
+                        <outlet property="eMailAddress" destination="oTq-tE-9mu" id="ekD-ee-005"/>
                         <outlet property="femaleButton" destination="40g-wK-5ZM" id="Gjx-GL-4Ev"/>
+                        <outlet property="isGenderMale" destination="jtp-DM-4CE" id="ZTg-IH-z98"/>
                         <outlet property="maleButton" destination="jtp-DM-4CE" id="BnA-qF-xLE"/>
+                        <outlet property="nameOfPerson" destination="izU-FB-kxL" id="37k-4Z-2aI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1271.2" y="479.91004497751129"/>
+            <point key="canvasLocation" x="110" y="587"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="gIo-db-dMe">
+            <objects>
+                <viewController id="uOb-1x-Hkt" customClass="DataViewController" customModule="SampleProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gqR-SH-ba6"/>
+                        <viewControllerLayoutGuide type="bottom" id="CSo-Xp-HxF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Ww-yR-wad">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haa-Fc-1P6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000.8" y="586.95652173913049"/>
         </scene>
         <!--Login-->
         <scene sceneID="34B-G1-LXZ">
@@ -191,6 +216,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCr-6M-e7E">
                                         <rect key="frame" x="0.0" y="140" width="221" height="30"/>
                                         <state key="normal" title="Sign in"/>
+                                        <connections>
+                                            <action selector="performSignInAction:" destination="ukC-7I-gTi" eventType="touchUpInside" id="P0E-PN-GRp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -208,10 +236,32 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="e0k-gH-QKU" kind="show" identifier="IncorrectData" id="WM8-Ib-l5U"/>
+                        <segue destination="uOb-1x-Hkt" kind="show" identifier="CorrectData" id="14Q-th-gDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Njt-iH-5c9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1271.2" y="-302.6986506746627"/>
+            <point key="canvasLocation" x="1001" y="-178"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zii-yH-cLf">
+            <objects>
+                <viewController id="e0k-gH-QKU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3DT-RA-49c"/>
+                        <viewControllerLayoutGuide type="bottom" id="s7V-Oo-grf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MEK-09-t6h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mcd-Mt-SDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908" y="-178"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TfF-Kb-Yh6">
@@ -274,7 +324,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yU8-4j-X54" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="-302.6986506746627"/>
+            <point key="canvasLocation" x="111" y="-179"/>
         </scene>
         <!--Item-->
         <scene sceneID="uFa-x7-fz9">
@@ -293,7 +343,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ksb-zg-T8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="332" y="456"/>
+            <point key="canvasLocation" x="-748" y="587"/>
         </scene>
     </scenes>
 </document>
