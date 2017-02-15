@@ -15,8 +15,9 @@ class DataViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     var animals = [[String:AnyObject]]()
     let cellReuseIdentifier = "cell"
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.hidesBackButton = true
         
         tableView.frame = view.bounds
         tableView.delegate = self
