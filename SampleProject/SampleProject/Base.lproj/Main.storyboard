@@ -151,9 +151,9 @@
                         <outlet property="Password" destination="SJa-Hn-aJC" id="FBK-Ia-DbK"/>
                         <outlet property="eMailAddress" destination="oTq-tE-9mu" id="ekD-ee-005"/>
                         <outlet property="femaleButton" destination="40g-wK-5ZM" id="Gjx-GL-4Ev"/>
-                        <outlet property="isGenderMale" destination="jtp-DM-4CE" id="ZTg-IH-z98"/>
                         <outlet property="maleButton" destination="jtp-DM-4CE" id="BnA-qF-xLE"/>
                         <outlet property="nameOfPerson" destination="izU-FB-kxL" id="37k-4Z-2aI"/>
+                        <outlet property="phone" destination="p9X-t5-84n" id="ZA4-bm-FIK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
